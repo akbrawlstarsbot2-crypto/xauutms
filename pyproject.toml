@@ -1,0 +1,21 @@
+[project]
+name = "discord-bot-master-reference"
+version = "1.0.0"
+description = "Production-scale discord.py master bot template and modular starter by XAU Marks The Spot"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "XAU Marks The Spot" }
+]
+license = { text = "MIT" }
+keywords = ["discord", "discord-bot", "discord.py", "python", "slash-commands"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

@@ -1,0 +1,6 @@
+discord.py>=2.5.0
+python-dotenv>=1.0.1
+yt-dlp>=2025.0.0
+PyNaCl>=1.5.0
+# Voice playback support (FFmpeg must also be installed on the host)
+# PyNaCl is required by discord.py voice and is already listed above.
